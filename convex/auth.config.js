@@ -1,7 +1,7 @@
 export default {
     providers: [
         {
-            domain: "https://regular-humpback-73.clerk.accounts.dev",
+            domain: process.env.CLERK_DOMAIN,
             applicationID: "convex",
         },
     ],
